@@ -1,0 +1,274 @@
+{
+  "className": "SingleChildScrollView",
+  "na": {
+    "child": {
+      "className": "Container",
+      "na": {
+        "child": {
+          "className": "Column",
+          "na": {
+            "children": [
+              {
+                "className": "InformationCard",
+                "na": {
+                  "backgroundColor": "#(backgroundColor)",
+                  "dark": "#(dark)",
+                  "fontColor": "#(fontColor)"
+                }
+              },
+              {
+                "className": "SimpleListCard",
+                "na": {
+                  "columnCount": 4,
+                  "backgroundColor": "#(backgroundColor)",
+                  "children": [
+                    {
+                      "className": "LabelButton",
+                      "pa": [
+                        "我的书架"
+                      ],
+                      "na": {
+                        "fontColor": "#(fontColor)",
+                        "icon": {
+                          "className": "CircleAvatar",
+                          "na": {
+                            "radius": 20.0,
+                            "child": {
+                              "className": "Icon",
+                              "pa": [
+                                "#(Icons.book)"
+                              ],
+                              "na": {
+                                "color": "#(Colors.white)"
+                              }
+                            },
+                            "backgroundColor": "#(Colors.green)"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "className": "LabelButton",
+                      "pa": [
+                        "我的 Live"
+                      ],
+                      "na": {
+                        "fontColor": "#(fontColor)",
+                        "icon": {
+                          "className": "CircleAvatar",
+                          "na": {
+                            "radius": 20.0,
+                            "child": {
+                              "className": "Icon",
+                              "pa": [
+                                "#(Icons.flash_on)"
+                              ],
+                              "na": {
+                                "color": "#(Colors.white)"
+                              }
+                            },
+                            "backgroundColor": "#(Colors.blue)"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "className": "LabelButton",
+                      "pa": [
+                        "私家课"
+                      ],
+                      "na": {
+                        "fontColor": "#(fontColor)",
+                        "icon": {
+                          "className": "CircleAvatar",
+                          "na": {
+                            "radius": 20.0,
+                            "child": {
+                              "className": "Icon",
+                              "pa": [
+                                "#(Icons.free_breakfast)"
+                              ],
+                              "na": {
+                                "color": "#(Colors.white)"
+                              }
+                            },
+                            "backgroundColor": {
+                              "className": "Color",
+                              "pa": [
+                                "0xFFA68F52"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "className": "LabelButton",
+                      "pa": [
+                        "付费咨询"
+                      ],
+                      "na": {
+                        "fontColor": "#(fontColor)",
+                        "icon": {
+                          "className": "CircleAvatar",
+                          "na": {
+                            "radius": 20.0,
+                            "child": {
+                              "className": "Icon",
+                              "pa": [
+                                "#(Icons.attach_money)"
+                              ],
+                              "na": {
+                                "color": "#(Colors.white)"
+                              }
+                            },
+                            "backgroundColor": {
+                              "className": "Color",
+                              "pa": [
+                                "0xFF355A9B"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "className": "LabelButton",
+                      "pa": [
+                        "已购"
+                      ],
+                      "na": {
+                        "fontColor": "#(fontColor)",
+                        "icon": {
+                          "className": "CircleAvatar",
+                          "na": {
+                            "radius": 20.0,
+                            "child": {
+                              "className": "Icon",
+                              "pa": [
+                                "#(Icons.shop)"
+                              ],
+                              "na": {
+                                "color": "#(Colors.white)"
+                              }
+                            },
+                            "backgroundColor": {
+                              "className": "Color",
+                              "pa": [
+                                "0xFF088DB4"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "className": "SimpleListCard",
+                "na": {
+                  "columnCount": 4,
+                  "backgroundColor": "#(backgroundColor)",
+                  "children": [
+                    {
+                      "className": "LabelButton",
+                      "pa": [
+                        "社区建设"
+                      ],
+                      "na": {
+                        "fontColor": "#(fontColor)",
+                        "icon": {
+                          "className": "CircleAvatar",
+                          "na": {
+                            "radius": 20.0,
+                            "child": {
+                              "className": "Icon",
+                              "pa": [
+                                "#(Icons.invert_colors)"
+                              ],
+                              "na": {
+                                "color": "#(Colors.white)"
+                              }
+                            },
+                            "backgroundColor": {
+                              "className": "Color",
+                              "pa": [
+                                "0xFFB88800"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "className": "LabelButton",
+                      "pa": [
+                        "#(themeText)"
+                      ],
+                      "na": {
+                        "fontColor": "#(fontColor)",
+                        "icon": {
+                          "className": "CircleAvatar",
+                          "na": {
+                            "radius": 20.0,
+                            "child": {
+                              "className": "Icon",
+                              "pa": [
+                                "#(themeIcon)"
+                              ],
+                              "na": {
+                                "color": "#(Colors.white)"
+                              }
+                            },
+                            "backgroundColor": {
+                              "className": "Color",
+                              "pa": [
+                                "0xFFB86A0D"
+                              ]
+                            }
+                          }
+                        },
+                        "onPressed": "#(changeTheme)"
+                      }
+                    },
+                    {
+                      "className": "LabelButton",
+                      "pa": [
+                        "设置"
+                      ],
+                      "na": {
+                        "fontColor": "#(fontColor)",
+                        "icon": {
+                          "className": "CircleAvatar",
+                          "na": {
+                            "radius": 20.0,
+                            "child": {
+                              "className": "Icon",
+                              "pa": [
+                                "#(Icons.perm_data_setting)"
+                              ],
+                              "na": {
+                                "color": "#(Colors.white)"
+                              }
+                            },
+                            "backgroundColor": {
+                              "className": "Color",
+                              "pa": [
+                                "0xFF636269"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

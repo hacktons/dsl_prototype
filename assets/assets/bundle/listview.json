@@ -1,0 +1,7 @@
+{
+  "className": "ListView.builder",
+  "na": {
+    "itemBuilder": "#(bizColorLabelBuilder)",
+    "itemCount": 5
+  }
+}

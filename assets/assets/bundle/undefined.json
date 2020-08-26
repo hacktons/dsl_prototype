@@ -1,0 +1,11 @@
+{
+  "className": "Center",
+  "na": {
+    "child": {
+      "className": "Text",
+      "pa": [
+        "暂未实现"
+      ]
+    }
+  }
+}
